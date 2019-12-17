@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <title>Day 2</title>
+    <style>
+      header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: red;
+      }
+
+      header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        padding-bottom: 35px;
+      }
+
+      #first-header {
+        background-color: lightgray;
+      }
+
+      .has-background {
+        background-color: lightgreen;
+      }
+
+      .first-element {
+        color: white;
+      }
+    </style>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        #left-sidebar {
+          display: inline-block;
+          width: 20%;
+          height: 100%;
+          background-color: #eee;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        #main-content {
+          display: inline-block;
+          width: 79%;
+          height:100%;
+          vertical-align: top;
+        }
+        .nav-item {
+          padding: 10px;
+          background-color: lightgray;
+          cursor: pointer;
+        }
+  
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      </style>
+  </head>
+  <body>
+    <div id="left-sidebar">
+      <p class="nav-item first-item"><a href="../day04/index.html">Home page</a></p>
+      <p class="nav-item"><a href="../day05/index.html">Day 5 page</a></p>
+      <p class="nav-item"><a href="../day04/index.html">Day 4 page</a></p>
+      <p class="nav-item"><a href="../day02-03/index.html">Day 2-3 pages</a></p>
+      <p class="nav-item"><a href="../day01/index.html">Day 1 page</a></p>
+    </div>
+    <div id="main-content">
+      <header id="first-header" class="has-background first-element">This is a header tag</header>
+    
+      <h1 id="first-h1" class="has-background">HTML Elements with special behavior</h1>
+
+      <header>This is a second header</header>
+
+      <img src="./hello-world.jpg" width="400" />
+      <a href="http://google.com">Click here to go to Google</a>
+    
+      <p class="has-background">A unordered list of fruits:</p>
+
+      <a href="./test.html">Go to the test page</a>
+
+      <ul>
+        <li>Mango</li>
+        <ul>
+          <li>Alphonso</li>
+          <li>Bombay</li>
+        </ul>
+        <li>Apple</li>
+        <li>Litchi</li>
+        <li>Oranges</li>
+      </ul>
+
+      <p>An ordered list of fruits</p>
+      <ol>
+        <li>Mango</li>
+        <ol>
+          <li>Alphonso</li>
+          <li>Bombay</li>
+        </ol>
+        <li>Apple</li>
+        <li>Litchi</li>
+        <li>Oranges</li>
+      </ol>
+
+      <p>Table of Fruits and major exporting cities</p>
+      <table border="1">
+        <tr>
+          <th>Fruit</th>
+          <th>City</th>
+        </tr>
+        <tr>
+          <td>Mango</td>
+          <td>Pune</td>
+        </tr>
+        <tr>
+          <td>Apple</td>
+          <td>Shimla</td>
+        </tr>
+        <tr>
+          <td>Litchi</td>
+          <td>Muzaffarpur</td>
+        </tr>
+        <tr>
+          <td>Orange (Indian variety)</td>
+          <td>Nagpur</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
