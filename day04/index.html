@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>CSS styling</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #left-sidebar {
+        display: inline-block;
+        width: 20%;
+        height: 100%;
+        background-color: #eee;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      #main-content {
+        display: inline-block;
+        width: 80%;
+        height:100%;
+        vertical-align: top;
+      }
+
+      #left-sidebar p {
+        padding: 10px;
+        background-color: lightgray;
+        cursor: pointer;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="left-sidebar">
+      <p class="first-item"><a href="../day04/index.html">Home page</a></p>
+      <p class=""><a href="../day05/index.html">Day 5 page</a></p>
+      <p class=""><a href="../day04/index.html">Day 4 Page</a></p>
+      <p class=""><a href="../day02-03/index.html">Day 2-3 pages</a></p>
+      <p class=""><a href="../day01/index.html">Day 1 page</a></p>
+    </div><div id="main-content">Main content<br/>Some more text</div>
+  </body>
+</html>
