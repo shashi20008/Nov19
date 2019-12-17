@@ -1,0 +1,13 @@
+#box1 {
+  /* height: 75px; */
+  background-color: green;
+}
+
+div#box1 p { 
+  /* 100 + 1 + 10 + 100 = 211  */
+  background-color: red;
+}
+
+p.first-para#para { /* 1 + 10 + 100 = 111 */
+  background-color: blue;
+}
