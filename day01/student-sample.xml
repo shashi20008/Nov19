@@ -1,0 +1,16 @@
+<StudentList ordered="true" length="3">
+  <Student>
+    <Name>Jane Doe</Name>
+    <City>New York</City>
+    <RollNumber>1</RollNumber>
+  </Student>
+  <Student>
+    <Name>John Doe</Name>
+    <City>Kansas</City>
+    <RollNumber />
+  </Student>
+  <Student>
+    <Name>Ryan Smith</Name>
+    <City>London</City>
+  </Student>
+</StudentList>
