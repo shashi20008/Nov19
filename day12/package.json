@@ -1,0 +1,24 @@
+{
+  "name": "first-node-js-prog",
+  "version": "1.0.0",
+  "description": "First node js program",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shashi20008/Nov19.git"
+  },
+  "author": "Shashi Shekhar (shashi20008@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashi20008/Nov19/issues"
+  },
+  "homepage": "https://github.com/shashi20008/Nov19#readme"
+}
